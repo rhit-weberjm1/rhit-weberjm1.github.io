@@ -1,12 +1,15 @@
 :root {
-    --visited-color: rgb(255, 127, 246);
+    --hover-color: rgb(129, 2, 120);
+    --darkPink-color: rgb(255, 12, 239);
+    --lightPink-color: rgb(255, 127, 246);
+    --veryLightPink-color: rgb(255, 188, 251);
 }
 nav {
-    background-color: pink;
-    padding: 10%;
+    background-color: var(--veryLightPink-color);
+    padding: 5%;
     text-align: center;
 }
 
 nav a:hover {
-    color: var(--visited-color);
+    color: var(--hover-color);
 }
