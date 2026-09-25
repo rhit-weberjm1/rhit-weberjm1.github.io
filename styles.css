@@ -5,7 +5,7 @@
     --veryLightPink-color: rgb(255, 188, 251);
 }
 nav {
-    background-color: var(--veryLightPink-color);
+    background-color: var(--lightPink-color);
     padding: 20px;
     text-align: center;
 
@@ -25,7 +25,7 @@ nav a:hover {
     justify-content: space-between;
     gap: 40px;
     padding: 50px;
-    background-color: var(--lightPink-color);
+    background-color: var(--veryLightPink-color);
 }
 
 .intro-text {
