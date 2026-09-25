@@ -1,0 +1,12 @@
+:root {
+    --visited-color: rgb(255, 127, 246);
+}
+nav {
+    background-color: pink;
+    padding: 10%;
+    text-align: center;
+}
+
+nav a:hover {
+    color: var(--visited-color);
+}
