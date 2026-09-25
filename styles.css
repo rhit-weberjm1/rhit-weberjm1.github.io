@@ -2,11 +2,19 @@
     --hover-color: rgb(129, 2, 120);
     --darkPink-color: rgb(255, 12, 239);
     --lightPink-color: rgb(255, 127, 246);
-    --veryLightPink-color: rgb(255, 188, 251);
+    --lighterPink-color: rgb(255, 186, 250);
+    --veryLightPink-color: rgb(255 218 253);
 }
 body {
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--veryLightPink-color);
+}
+
+#title {
+    background-color: var(--darkPink-color);
+    padding:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -17,16 +25,17 @@ nav {
 }
 
 nav a {
-    margin: 20px;
+    margin: 50px;
     text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 nav a:hover {
     color: var(--hover-color);
 }
 
 nav a:visited {
-
+    
 }
 
 .intro {
@@ -35,16 +44,23 @@ nav a:visited {
     justify-content: space-between;
     gap: 40px;
     padding: 50px;
-    background-color: var(--veryLightPink-color);
+    
 }
 
 .intro-text {
     max-width: 650px;
 }
 
+.intro p{
+    border: 5px solid black;
+    padding: 10px;
+    border-width:thin
+}
+
 
 .intro img {
     width: 300px;
     border-radius: 15px;
+    border: 5px solid black;
 }
 
