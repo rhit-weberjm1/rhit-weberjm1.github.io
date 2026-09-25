@@ -4,6 +4,11 @@
     --lightPink-color: rgb(255, 127, 246);
     --veryLightPink-color: rgb(255, 188, 251);
 }
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 nav {
     background-color: var(--lightPink-color);
     padding: 20px;
@@ -12,11 +17,16 @@ nav {
 }
 
 nav a {
-    margin: 10px;
+    margin: 20px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
 nav a:hover {
     color: var(--hover-color);
+}
+
+nav a:visited {
+
 }
 
 .intro {
@@ -32,19 +42,9 @@ nav a:hover {
     max-width: 650px;
 }
 
-.intro h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.intro h2 {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.intro p {
-    font-family: 'Times New Roman', Times, serif;
-}
 
 .intro img {
     width: 300px;
     border-radius: 15px;
 }
+
