@@ -112,17 +112,12 @@ body {
     font-style:italic;
 }
 
-.projects-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 20px;
-    margin: 0;
+.projects-section section div{
+    flex: 1;
 }
 
 .projects-section img {
-    width: 300px;
+    width: 250px;
     border-radius: 15px;
-    border: 5px solid black;
+    border: 1px solid black;
 }
