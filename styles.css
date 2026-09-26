@@ -39,6 +39,8 @@ nav a:visited {
     color:  rgb(65, 0, 60);
 }
 
+/* Page specific formatting */
+/* Home Page */
 #name-title {
     text-align:center;
     font-size: 20;
@@ -77,4 +79,16 @@ body {
     border-radius: 15px;
     border: 5px solid black;
 }
+
+/* Resume Page */
+.resume-section {
+    max-width: 650px;
+}
+
+.resume-section p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+/* Portfolio Page */
 
