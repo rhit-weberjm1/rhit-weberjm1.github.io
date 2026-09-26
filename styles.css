@@ -124,3 +124,8 @@ I use this source to help me format my page*/
     border-radius: 15px;
     border: 1px solid black;
 }
+
+footer {
+    background-color: var(--lightPink-color);
+    padding: 20px;
+}
