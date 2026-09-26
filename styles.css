@@ -100,9 +100,14 @@ body {
 }
 
 #urban-air {
-    font-style: none;
     font-style: bold;
 }
 
 /* Portfolio Page */
+.projects-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects-section p{
+    font-style:italic;
+}
 
