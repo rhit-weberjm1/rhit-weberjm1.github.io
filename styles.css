@@ -106,6 +106,7 @@ body {
 /* Portfolio Page */
 .projects-section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
 }
 .projects-section p{
     font-style:italic;
