@@ -82,12 +82,25 @@ body {
 
 /* Resume Page */
 .resume-section {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 650px;
 }
 
 .resume-section p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
+}
+
+.subsection-parent {
+    display: flex;
+    gap: 40px;
+}
+
+.subsection {
+    flex: 1;
+}
+
+#urban-air {
+    font-style: bold;
 }
 
 /* Portfolio Page */
