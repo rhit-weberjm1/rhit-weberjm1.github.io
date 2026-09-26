@@ -83,7 +83,7 @@ body {
 /* Resume Page */
 .resume-section {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 650px;
+    margin: 20px;
 }
 
 .resume-section p{
