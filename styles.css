@@ -73,7 +73,8 @@ body {
     border-width:thin
 }
 
-
+/*Source: https://www.w3schools.com/howto/howto_css_rounded_images.asp 
+I used this source to round my image */
 .intro img {
     width: 300px;
     border-radius: 15px;
@@ -90,6 +91,8 @@ body {
     font-style: italic;
 }
 
+/*Source: https://stackoverflow.com/questions/446060/how-to-place-two-divs-side-by-side-with-css
+I use this source to help me format my page*/
 .subsection-parent {
     display: flex;
     gap: 40px;
