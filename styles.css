@@ -107,10 +107,10 @@ I use this source to help me format my page*/
 }
 
 /* Portfolio Page */
-/* .projects-section {
+.projects-section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
-} */
+}
 .projects-section p{
     font-style:italic;
 }
